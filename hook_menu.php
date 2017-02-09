@@ -1,7 +1,7 @@
 <?php
 
 $project_name = $argv[1];
-$module_path = "modules/$project_name/";
+$module_path = "/tmp/$project_name/";
 
 $module = glob($module_path . '*.module');
 $info = glob($module_path . '*.info');
